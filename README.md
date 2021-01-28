@@ -9,7 +9,7 @@ Richiede OpenSSL
 Per criptare un file:
 
 ```javascript
-const file_encrypter=require("file-encryptor")
+const file_encrypter=require("file-encrypter")
 
 file_encrypter.crypt("nomefileinput","nomefileoutput","password")
 ```
@@ -17,7 +17,7 @@ file_encrypter.crypt("nomefileinput","nomefileoutput","password")
 Per decriptare:
 
 ```javascript
-const file_encrypter=require("file-encryptor")
+const file_encrypter=require("file-encrypter")
 
 file_encrypter.decrypt("nomefileinput","nomefileoutput","password")
 ```
